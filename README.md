@@ -1,5 +1,7 @@
 # Loan Calculator Simplified
 
+<img src="Resources/AppIcon/Calculator-512.png" width="80"/>
+
 A cross-platform loan calculator built with .NET MAUI targeting Android, iOS, macOS, and Windows.
 
 ## Screenshot
