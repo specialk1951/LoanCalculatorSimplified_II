@@ -2,6 +2,10 @@
 
 A cross-platform loan calculator built with .NET MAUI targeting Android, iOS, macOS, and Windows.
 
+## Screenshot
+
+<img src="Resources/Images/Screenshot_LCS_II.jpg" width="300"/>
+
 ## Features
 
 Enter any 3 of the 4 loan variables and tap the corresponding button to calculate the missing value:
