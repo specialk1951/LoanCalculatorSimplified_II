@@ -17,8 +17,8 @@
             <Grid ColumnDefinitions="2*, 0.4*, 2.6*" ColumnSpacing="10">
                 <Button x:Name="btnLoanAmount"
                         Text="Loan&#10;Amount"
-                        FontSize="16"
-                        HeightRequest="60"
+                        FontSize="14"
+                        HeightRequest="48"
                         Clicked="btnLoanAmount_Click" />
                 <Entry x:Name="txbLoanAmount"
                        Placeholder="Loan Amount"
@@ -33,8 +33,8 @@
             <Grid ColumnDefinitions="2*, 0.4*, 2.6*" ColumnSpacing="10">
                 <Button x:Name="btnInterestRate"
                         Text="Interest&#10;Rate"
-                        FontSize="16"
-                        HeightRequest="60"
+                        FontSize="14"
+                        HeightRequest="48"
                         Clicked="btnInterestRate_Click" />
                 <Entry x:Name="txbInterestRate"
                        Placeholder="Interest Rate"
@@ -49,8 +49,8 @@
             <Grid ColumnDefinitions="2*, 0.4*, 2.6*" ColumnSpacing="10">
                 <Button x:Name="btnNumberOfPayments"
                         Text="Number Of&#10;Payments"
-                        FontSize="15"
-                        HeightRequest="60"
+                        FontSize="14"
+                        HeightRequest="48"
                         Clicked="btnNumberOfPayments_Click" />
                 <Entry x:Name="txbNumberOfPayments"
                        Placeholder="No. of Payments"
@@ -65,8 +65,8 @@
             <Grid ColumnDefinitions="2*, 0.4*, 2.6*" ColumnSpacing="10">
                 <Button x:Name="btnPaymentAmount"
                         Text="Payment&#10;Amount"
-                        FontSize="16"
-                        HeightRequest="60"
+                        FontSize="14"
+                        HeightRequest="48"
                         Clicked="btnPaymentAmount_Click" />
                 <Entry x:Name="txbPaymentAmount"
                        Placeholder="Payment Amount"
@@ -95,15 +95,14 @@
             </Grid>
 
             <!-- Clear Button -->
-            <Grid ColumnDefinitions="*, *">
-                <Button x:Name="btnClear"
-                        Text="Clear"
-                        FontSize="18"
-                        HeightRequest="30"
-                        Margin="0,10,0,0"
-                        Grid.Column="1"
-                        Clicked="btnClear_Click" />
-            </Grid>
+            <Button x:Name="btnClear"
+                    Text="Clear"
+                    FontSize="14"
+                    HeightRequest="48"
+                    BackgroundColor="White"
+                    TextColor="Black"
+                    Margin="0,10,0,0"
+                    Clicked="btnClear_Click" />
 
         </VerticalStackLayout>
     </ScrollView>
